@@ -1,0 +1,10 @@
+Style/Documentation:
+  Enabled: false
+AllCops:
+  NewCops: enable
+  Exclude:
+    - "**/Gemfile"
+    - "bin/*"
+    - "config/**/*"
+    - "node_modules/**/*"
+    - "db/**/*"
